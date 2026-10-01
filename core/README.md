@@ -1,15 +1,15 @@
 <div align="center">
-  <a href="https://github.com/eigenwise/tesseron">
+  <a href="https://github.com/tesseron-dev/tesseron">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/eigenwise/tesseron/raw/main/assets/logo/tesseron-smallcaps-dark.png">
-      <img src="https://github.com/eigenwise/tesseron/raw/main/assets/logo/tesseron-smallcaps-light.png" alt="Tesseron" width="380">
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/tesseron-dev/tesseron/raw/main/assets/logo/tesseron-smallcaps-dark.png">
+      <img src="https://github.com/tesseron-dev/tesseron/raw/main/assets/logo/tesseron-smallcaps-light.png" alt="Tesseron" width="380">
     </picture>
   </a>
 </div>
 
 # @tesseron/core
 
-Protocol types and action builder for [Tesseron](https://github.com/eigenwise/tesseron) — a protocol + TypeScript SDK + MCP gateway that exposes the typed actions a live app already has to MCP-compatible AI agents (Claude Code, Claude Desktop, Cursor, Copilot, Codex, ...) over a local WebSocket.
+Protocol types and action builder for [Tesseron](https://github.com/tesseron-dev/tesseron) — a protocol + TypeScript SDK + MCP gateway that exposes the typed actions a live app already has to MCP-compatible AI agents (Claude Code, Claude Desktop, Cursor, Copilot, Codex, ...) over a local WebSocket.
 
 > **Most users don't install `@tesseron/core` directly.** Reach for one of the framework-targeted packages instead:
 >
@@ -19,7 +19,7 @@ Protocol types and action builder for [Tesseron](https://github.com/eigenwise/te
 > | [`@tesseron/server`](https://www.npmjs.com/package/@tesseron/server) | You're in Node (CLI, daemon, Express, Fastify, ...) |
 > | [`@tesseron/react`](https://www.npmjs.com/package/@tesseron/react) | You want hook-based React integration |
 >
-> Install `@tesseron/core` directly only if you're **building a custom transport**, a third-party framework adapter, or a **compatible Tesseron SDK in another language** — the protocol spec is [CC BY 4.0](https://github.com/eigenwise/tesseron/blob/main/docs/src/content/docs/protocol/LICENSE), reimplementations are explicitly encouraged.
+> Install `@tesseron/core` directly only if you're **building a custom transport**, a third-party framework adapter, or a **compatible Tesseron SDK in another language** — the protocol spec is [CC BY 4.0](https://github.com/tesseron-dev/tesseron/blob/main/docs/src/content/docs/protocol/LICENSE), reimplementations are explicitly encouraged.
 
 ## What's inside
 
@@ -71,13 +71,13 @@ For the real browser and Node transports, see [`@tesseron/web`](https://www.npmj
 
 | | |
 |---|---|
-| Main repo | <https://github.com/eigenwise/tesseron> |
-| SDK reference | <https://eigenwise.github.io/tesseron/sdk/typescript/core/> |
-| Protocol spec | <https://eigenwise.github.io/tesseron/protocol/> |
-| Examples | <https://github.com/eigenwise/tesseron/tree/main/examples> |
+| Main repo | <https://github.com/tesseron-dev/tesseron> |
+| SDK reference | <https://tesseron-dev.github.io/tesseron/sdk/typescript/core/> |
+| Protocol spec | <https://tesseron-dev.github.io/tesseron/protocol/> |
+| Examples | <https://github.com/tesseron-dev/tesseron/tree/main/examples> |
 
 ## License
 
-Reference implementation — [Business Source License 1.1](https://github.com/eigenwise/tesseron/blob/main/LICENSE) (source-available). Each release auto-converts to Apache-2.0 four years after publication. Protocol specification — [CC BY 4.0](https://github.com/eigenwise/tesseron/blob/main/docs/src/content/docs/protocol/LICENSE).
+Reference implementation — [Business Source License 1.1](https://github.com/tesseron-dev/tesseron/blob/main/LICENSE) (source-available). Each release auto-converts to Apache-2.0 four years after publication. Protocol specification — [CC BY 4.0](https://github.com/tesseron-dev/tesseron/blob/main/docs/src/content/docs/protocol/LICENSE).
 
 <p align="center">Built and maintained by <a href="https://eigenwise.io/"><b>Eigenwise</b></a>.</p>

@@ -1,15 +1,15 @@
 <div align="center">
-  <a href="https://github.com/eigenwise/tesseron">
+  <a href="https://github.com/tesseron-dev/tesseron">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/eigenwise/tesseron/raw/main/assets/logo/tesseron-smallcaps-dark.png">
-      <img src="https://github.com/eigenwise/tesseron/raw/main/assets/logo/tesseron-smallcaps-light.png" alt="Tesseron" width="380">
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/tesseron-dev/tesseron/raw/main/assets/logo/tesseron-smallcaps-dark.png">
+      <img src="https://github.com/tesseron-dev/tesseron/raw/main/assets/logo/tesseron-smallcaps-light.png" alt="Tesseron" width="380">
     </picture>
   </a>
 </div>
 
 # @tesseron/svelte
 
-Svelte adapter for [Tesseron](https://github.com/eigenwise/tesseron). Register actions, expose resources, and observe connection state from inside your components — no manual lifecycle wiring. Wraps [`@tesseron/web`](https://www.npmjs.com/package/@tesseron/web).
+Svelte adapter for [Tesseron](https://github.com/tesseron-dev/tesseron). Register actions, expose resources, and observe connection state from inside your components — no manual lifecycle wiring. Wraps [`@tesseron/web`](https://www.npmjs.com/package/@tesseron/web).
 
 Compatible with Svelte 4 and Svelte 5.
 
@@ -19,7 +19,7 @@ Compatible with Svelte 4 and Svelte 5.
 npm install @tesseron/svelte
 ```
 
-You also need the [`@tesseron/mcp`](https://www.npmjs.com/package/@tesseron/mcp) gateway running locally — bundled inside the [Claude Code plugin](https://github.com/eigenwise/tesseron/tree/main/plugin).
+You also need the [`@tesseron/mcp`](https://www.npmjs.com/package/@tesseron/mcp) gateway running locally — bundled inside the [Claude Code plugin](https://github.com/tesseron-dev/tesseron/tree/main/plugin).
 
 ## Quick start
 
@@ -96,18 +96,18 @@ To push state to the agent on every change, wire a subscriber using `$effect`:
 
 ## Pair with `@tesseron/web`
 
-`@tesseron/svelte` re-exports the public surface of `@tesseron/web`, so you can mix raw calls with the helper functions. See [`sdks/typescript/examples/svelte-todo`](https://github.com/eigenwise/tesseron/tree/main/sdks/typescript/examples/svelte-todo) for a full app.
+`@tesseron/svelte` re-exports the public surface of `@tesseron/web`, so you can mix raw calls with the helper functions. See [`sdks/typescript/examples/svelte-todo`](https://github.com/tesseron-dev/tesseron/tree/main/sdks/typescript/examples/svelte-todo) for a full app.
 
 ## Docs
 
 | | |
 |---|---|
-| Main repo | <https://github.com/eigenwise/tesseron> |
-| Protocol spec | <https://eigenwise.github.io/tesseron/protocol/> |
-| Example app | <https://github.com/eigenwise/tesseron/tree/main/sdks/typescript/examples/svelte-todo> |
+| Main repo | <https://github.com/tesseron-dev/tesseron> |
+| Protocol spec | <https://tesseron-dev.github.io/tesseron/protocol/> |
+| Example app | <https://github.com/tesseron-dev/tesseron/tree/main/sdks/typescript/examples/svelte-todo> |
 
 ## License
 
-Reference implementation — [Business Source License 1.1](https://github.com/eigenwise/tesseron/blob/main/LICENSE) (source-available). Each release auto-converts to Apache-2.0 four years after publication.
+Reference implementation — [Business Source License 1.1](https://github.com/tesseron-dev/tesseron/blob/main/LICENSE) (source-available). Each release auto-converts to Apache-2.0 four years after publication.
 
 <p align="center">Built and maintained by <a href="https://eigenwise.io/"><b>Eigenwise</b></a>.</p>

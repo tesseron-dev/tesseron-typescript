@@ -2,6 +2,8 @@
 
 The official TypeScript SDK packages for Tesseron, the protocol for exposing typed app actions to MCP-compatible AI agents over WebSocket.
 
+Created and maintained by [Eigenwise](https://eigenwise.io).
+
 | Package | Purpose |
 |---|---|
 | [`@tesseron/core`](https://www.npmjs.com/package/@tesseron/core) | Protocol types, action and resource builders, and the transport-independent runtime |
@@ -12,7 +14,7 @@ The official TypeScript SDK packages for Tesseron, the protocol for exposing typ
 | [`@tesseron/vue`](https://www.npmjs.com/package/@tesseron/vue) | Vue bindings |
 | [`@tesseron/vite`](https://www.npmjs.com/package/@tesseron/vite) | Vite development integration |
 
-The [Tesseron hub](https://github.com/Eigenwise/tesseron) owns the [protocol specification](https://eigenwise.github.io/tesseron/protocol/), [documentation](https://eigenwise.github.io/tesseron/), and [issue tracker](https://github.com/Eigenwise/tesseron/issues).
+The [Tesseron hub](https://github.com/tesseron-dev/tesseron) owns the [protocol specification](https://tesseron-dev.github.io/tesseron/protocol/), [documentation](https://tesseron-dev.github.io/tesseron/), and [issue tracker](https://github.com/tesseron-dev/tesseron/issues).
 
 ## License
 

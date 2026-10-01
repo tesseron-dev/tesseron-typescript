@@ -8,14 +8,14 @@
     "email": "kenny@eigenwise.io",
     "url": "https://eigenwise.io/"
   },
-  "homepage": "https://github.com/Eigenwise/tesseron-typescript#readme",
+  "homepage": "https://github.com/tesseron-dev/tesseron-typescript#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Eigenwise/tesseron-typescript.git",
+    "url": "git+https://github.com/tesseron-dev/tesseron-typescript.git",
     "directory": "svelte"
   },
   "bugs": {
-    "url": "https://github.com/Eigenwise/tesseron/issues"
+    "url": "https://github.com/tesseron-dev/tesseron/issues"
   },
   "keywords": [
     "mcp",
