@@ -43,4 +43,4 @@ jobs:
 
       # The runner is published from the hub and pinned to the protocol version.
       - name: Run the conformance suite
-        run: npx -y @tesseron/conformance@1.2.1 --host "node conformance-host/dist/bin.js"
+        run: npx -y @tesseron/conformance@1.2.2 --host "node conformance-host/dist/bin.js"
